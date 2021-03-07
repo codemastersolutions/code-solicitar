@@ -1,0 +1,10 @@
+{
+  "name": "cms-requisicoes",
+  "version": "0.1.0",
+  "description": "Sistema para Controle de Requisições e Protocolo",
+  "main": "index.js",
+  "repository": "https://github.com/codemastersolutions/cms-requisicoes",
+  "author": "Gilson Gabriel <gilson@codemastersolucoes.com>",
+  "license": "MIT",
+  "private": true
+}
