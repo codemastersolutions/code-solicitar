@@ -3,3 +3,6 @@ dist
 .vscode
 .idea
 yarn-error.log
+build
+tmp
+temp

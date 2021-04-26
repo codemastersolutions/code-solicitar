@@ -10,7 +10,7 @@
 
   // The 'service' property is the name of the service for the container that VS Code should
   // use. Update this value and .devcontainer/docker-compose.yml to the real service name.
-  "service": "cms-requisicoes",
+  "service": "code-solicitar",
 
   // The optional 'workspaceFolder' property is the path VS Code should open by default when
   // connected. This is typically a file mount in .devcontainer/docker-compose.yml
@@ -30,8 +30,8 @@
     "k--kato.intellij-idea-keybindings",
     "ritwickdey.liveserver",
     "ms-vscode.vscode-typescript-tslint-plugin",
-    "esbenp.prettier-vscode",
-    "remimarsal.prettier-now",
+    // "esbenp.prettier-vscode",
+    // "remimarsal.prettier-now",
     "rvest.vs-code-prettier-eslint",
     "orta.vscode-jest",
     "codezombiech.gitignore",
@@ -59,7 +59,7 @@
     "ms-azuretools.vscode-docker",
     "docsmsft.docs-yaml",
     "chris-noring.node-snippets"
-  ]
+  ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
@@ -71,7 +71,7 @@
   // "shutdownAction": "none",
 
   // Uncomment the next line to run commands after the container is created - for example installing curl.
-  // "postCreateCommand": "apt-get update && apt-get install -y curl",
+  "postCreateCommand": "yarn install && yarn dev",
 
   // Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
   // "remoteUser": "vscode"

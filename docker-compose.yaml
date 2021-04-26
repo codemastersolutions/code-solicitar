@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  cms-requisicoes:
+  code-solicitar:
     build: ./.docker
-    container_name: cms-requisicoes
+    container_name: code-solicitar
     restart: always
     tty: true
     environment:
